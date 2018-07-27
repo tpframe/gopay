@@ -1,11 +1,22 @@
 {
-    "name": "yaoyihong/goapy",
-    "description": "a pay msg",
-    "authors": [
-        {
-            "name": "tpframe",
-            "email": "510974211@qq.com"
-        }
-    ],
-    "require": {}
+  "name": "yaoyihong/goapy",
+  "description": "try make a package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+        "name": "tpframe",
+        "email": "510974211@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flower\\Rose\\": "src/Flower/Rose",
+      "Flower\\Lily\\": "src/Flower/Lily"
+    }
+  }
 }
+
