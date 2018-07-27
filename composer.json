@@ -12,11 +12,18 @@
   "require": {
     "php": ">=5.4"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Flower\\Rose\\": "src/Flower/Rose",
       "Flower\\Lily\\": "src/Flower/Lily"
     }
-  }
+  },
+  "repositories": {
+    "packagist": {
+        "type": "composer",
+        "url": "https://packagist.org"
+    }
+}
 }
 
