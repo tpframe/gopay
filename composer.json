@@ -1,0 +1,11 @@
+{
+    "name": "yaoyihong/goapy",
+    "description": "a pay msg",
+    "authors": [
+        {
+            "name": "tpframe",
+            "email": "510974211@qq.com"
+        }
+    ],
+    "require": {}
+}
